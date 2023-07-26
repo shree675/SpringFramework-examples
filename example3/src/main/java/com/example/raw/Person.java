@@ -4,12 +4,12 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
 import com.example.raw.env.ApplicationEnvironment;
 
-@Configuration
+@Component
 /*
  * a prototype scope is required
  * to enable constructor injection
