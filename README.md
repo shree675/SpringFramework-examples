@@ -19,7 +19,8 @@ A few small and simple examples to demonstrate the features of Spring Framework.
 ### Example 4
 
 `@RestController`, `@Repository` and `@Entity` usage.  
-Full web application with data persistence in H2 file-based storage.
+`@TestPropertySource`, `@Test` and `MockMvc` usage.  
+Full web application with data persistence in H2 file-based storage with unit tests.
 
 Use the following to insert data:
 
