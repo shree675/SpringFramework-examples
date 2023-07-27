@@ -37,7 +37,7 @@ public class UserService {
     public ResponseEntity<?> insertUser(User user) {
         try {
             userRepository.save(user);
-            return new ResponseEntity<Object>("Added succcessfully", HttpStatus.OK);
+            return new ResponseEntity<Object>("Added successfully", HttpStatus.CREATED);
         } catch (Exception e) {
             return new ResponseEntity<Object>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
